@@ -331,7 +331,32 @@ header {
 
 @media (max-width: 641px) {
   body {
-    font-size: 12px;
+    font-size: 8px;
+  }
+  header {
+    padding: 0px;
+    grid-template-columns: 30% 20% 50%;
+    grid-template-areas: "logoImg logoName navigation ";
+  }
+  .navigation,
+  .logoName,
+  .logoImg {
+    font-size: 1.1em;
+  }
+  .main {
+    padding: 100px 70px;
+  }
+  .social-icons {
+    padding-right: px;
+  }
+
+  ._btn {
+    margin-top: -30px;
+  }
+
+  .ApplyProgram {
+    padding: 10px 80px;
+    margin-top: -100px;
   }
 }
 
